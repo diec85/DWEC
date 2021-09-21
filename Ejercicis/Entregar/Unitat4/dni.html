@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Dime tu dni y la letra y te dire si es correcta</title>
+</head>
+<body>
+<script language="JavaScript">
+    
+    var numero = prompt("Dime el numero de dni");
+    var letra = prompt("Dime la letra de dni");
+
+    if (numero > 0 && numero < 99999999) {
+    
+        var letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F',
+        'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C',
+        'K', 'E', 'T'];
+
+        //var numero = 20042007;
+        pLetras = numero % 23;
+        if (letra == letras[pLetras]) {
+        window.alert(numero+letras[pLetras]);
+        }
+        else {
+            window.alert("La letra no coincide");
+        }
+    }
+    else {
+        window.alert("Numero no valido");
+    }
+    
+</script>
+</body>
+</html>
