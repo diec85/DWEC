@@ -2,42 +2,42 @@
 
     "cases": [{
             "id": 1,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Atic.png",
             "tipo": "Atic",
             "metres": 100,
             "preu": 60.000
         },
         {
             "id": 2,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Piso.png",
             "tipo": "Piso",
             "metres": 80,
             "preu": 30.000
         },
         {
             "id": 3,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Casa.png",
             "tipo": "Adosat",
             "metres": 120,
             "preu": 120.000
         },
         {
             "id": 4,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Piso2.png",
             "tipo": "Piso",
             "metres": 150,
             "preu": 82.000
         },
         {
             "id": 5,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Atic2.png",
             "tipo": "Atic",
             "metres": 200,
             "preu": 110.000
         },
         {
             "id": 6,
-            "img": "./imgs/golf.png",
+            "img": "./imgs/Casa2.png",
             "tipo": "Adosat",
             "metres": 80,
             "preu": 30.000
