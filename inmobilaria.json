@@ -1,0 +1,41 @@
+{
+
+    "cases": [{
+            "id": 1,
+            "tipo": "Atic",
+            "metres": 100,
+            "preu": 60.000
+        },
+        {
+            "id": 2,
+            "tipo": "Piso",
+            "metres": 80,
+            "preu": 30.000
+        },
+        {
+            "id": 3,
+            "tipo": "Adosat",
+            "metres": 120,
+            "preu": 120.000
+        },
+        {
+            "id": 4,
+            "tipo": "Piso",
+            "metres": 150,
+            "preu": 82.000
+        },
+        {
+            "id": 5,
+            "tipo": "Atic",
+            "metres": 200,
+            "preu": 110.000
+        },
+        {
+            "id": 6,
+            "tipo": "Adosat",
+            "metres": 80,
+            "preu": 30.000
+        }
+    ]
+
+}
